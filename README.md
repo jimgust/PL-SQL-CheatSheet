@@ -16,6 +16,7 @@
 - [Cursors](#cursors)
   - [Cursors Attributes](#cursors-attributes)
   - [FORALL Cursors Attributes](#forall-cursors-attributes)
+  - [Cursor Examples](#cursor-examples)
 - [Records](#records)
 - [Functions](#functions)
 - [Stored Procedure](#stored-procedure)
@@ -372,6 +373,7 @@ END;
 | %BULK_EXCEPTIONS | Returns the number of rows processed by a FORALL operation with the SAVE_EXCEPTIONS clause. This attribute applies to the implicit cursor named SQL only. |
 | %BULK_ROWCOUNT | Returns the number of rows processed by a FORALL operation. This attribute applies to the implicit cursor named SQL only. |
 
+### Cursor Examples
 ```sql
 declare
     v_first_name varchar2(20);
